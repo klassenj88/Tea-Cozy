@@ -55,7 +55,7 @@ body {
 }
 
 /**** STYLING FOR 'MISSION' PAGE BLOCK ****/
-.mission {
+#mission {
   display: flex;
   background-image: url('../background.jpg');
   background-size: cover;
@@ -84,12 +84,14 @@ body {
 }
 
 /**** STYLING FOR 'FEATURED' PAGE BLOCK ****/
-.featured {
+#featured {
   display: flex;
   flex-flow: row wrap;
   width: 1000px;
+  height: 800px;
   justify-content: center;
   align-content: center;
+  margin-bottom: 70px;
 }
 
 .tea {
@@ -130,3 +132,43 @@ body {
 }
 
 /**** STYLING FOR 'LOCATIONS' PAGE BLOCK ****/
+#locations {
+  background-image: url('../locations.jpg');
+  background-size: cover;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  padding-top: 100px;
+}
+
+#locations h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 15px 20px;
+}
+
+.address h3 {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.address p {
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 30px;
+}
