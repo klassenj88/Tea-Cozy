@@ -52,6 +52,8 @@ body {
   width: 100%;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 /**** STYLING FOR 'MISSION' PAGE BLOCK ****/
@@ -64,6 +66,8 @@ body {
   justify-content: center;
   margin: auto;
   align-items: center;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .mission-text {
@@ -73,6 +77,8 @@ body {
   align-items: center;
   background-color: black;
   width: 1200px;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .mission-text h2 {
@@ -92,6 +98,8 @@ body {
   justify-content: center;
   align-content: center;
   margin-bottom: 70px;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .tea {
@@ -101,6 +109,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 70px;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .tea h2 {
@@ -116,6 +126,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .item {
@@ -139,6 +151,8 @@ body {
   width: 1200px;
   height: 500px;
   padding-top: 100px;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 #locations h2 {
@@ -150,6 +164,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .address {
