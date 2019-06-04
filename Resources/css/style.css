@@ -16,6 +16,7 @@ body {
   height: 69px;
   border-bottom: 1px solid seashell;
   opacity: 0.9;
+  top: 0;
 }
 
 .logo {
@@ -39,4 +40,39 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+}
+
+.content {
+  display: flex;
+  padding-top: 69px;
+  width: 100%;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  background-image: url('../background.jpg');
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+}
+
+.mission-text h2 {
+  margin: 15px;
+}
+
+.mission-text h4 {
+  margin: 15px;
 }
